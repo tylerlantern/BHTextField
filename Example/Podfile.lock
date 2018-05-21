@@ -1,0 +1,16 @@
+PODS:
+  - BHTextField (1.0.0)
+
+DEPENDENCIES:
+  - BHTextField (from `..`)
+
+EXTERNAL SOURCES:
+  BHTextField:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  BHTextField: f9d3452bb84e0624d5095282125582197911c757
+
+PODFILE CHECKSUM: 8df5622760e37ba7ed91f34a1f5a7595c0b4a79c
+
+COCOAPODS: 1.5.2
