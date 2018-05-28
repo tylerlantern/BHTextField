@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/tylerlantern/BHTextField.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/tylerlantern/BHTextField.git", :tag => "1.0.0", :commit => "9005cf5839fa2ecfd9c407ef43f9b17a3baf28a1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
