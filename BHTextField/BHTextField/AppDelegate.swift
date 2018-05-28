@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  BHTextfield
+//  BHTextField
 //
-//  Created by Nattapong Unaregul on 28/5/18.
+//  Created by Nattapong Unaregul on 29/5/18.
 //  Copyright © 2018 Nattapong Unaregul. All rights reserved.
 //
 

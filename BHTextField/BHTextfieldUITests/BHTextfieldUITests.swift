@@ -1,14 +1,14 @@
 //
-//  BHTextfieldUITests.swift
-//  BHTextfieldUITests
+//  BHTextFieldUITests.swift
+//  BHTextFieldUITests
 //
-//  Created by Nattapong Unaregul on 28/5/18.
+//  Created by Nattapong Unaregul on 29/5/18.
 //  Copyright © 2018 Nattapong Unaregul. All rights reserved.
 //
 
 import XCTest
 
-class BHTextfieldUITests: XCTestCase {
+class BHTextFieldUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "BHTextField"
+  s.name         = "BHTextfield"
   s.version      = "1.0.0"
   s.summary      = "Textfield that make your life easier."
 
