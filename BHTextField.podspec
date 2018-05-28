@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "BHTextfield"
+  s.name         = "BHTextField"
   s.version      = "1.0.0"
   s.summary      = "Textfield that make your life easier."
 
@@ -87,7 +87,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "BHTextfield/BHTextfield/Classes/**/*"
+  s.source_files  = "BHTextfield/BHTextField/Classes/**/*"
 
   # s.public_header_files = "Classes/**/*.h"
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
