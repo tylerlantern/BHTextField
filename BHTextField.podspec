@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/tylerlantern/BHTextField.git", :tag => "1.0.0", :commit => "9005cf5839fa2ecfd9c407ef43f9b17a3baf28a1" }
+  s.source       = { :git => "https://github.com/tylerlantern/BHTextField.git", :tag => "1.0.0", :commit => "1d8ad869ce7e30f6d76ac7d495821c0a78a4ce88" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -87,7 +87,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "BHTextfield/BHTextField/Classes/**/*"
+  s.source_files  = "BHTextField/BHTextField/Classes/**/*"
 
   # s.public_header_files = "Classes/**/*.h"
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
