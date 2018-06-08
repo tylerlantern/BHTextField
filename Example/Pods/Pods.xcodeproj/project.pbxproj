@@ -7,26 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07DD890CFE3A816C7262BCCC502EC839 /* BHTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC55AE6FA6E699259C5E62314BC6AA4 /* BHTextFieldTests.swift */; };
-		0EB4F8C229525C6FFE131855462B3938 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		1369347DCDEC1C5837CBA36AA54306CB /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 831C3A51B5077324E01B5FB69A51B0D1 /* Pods-Example-dummy.m */; };
+		3325BA70B10B80D8E1CA3619118C215E /* BHTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C262835658FDA9FC77E2CAF32EEC8760 /* BHTextField-dummy.m */; };
+		3BFB139781CD437847AA005E47903325 /* BHTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FC6834C25F0441520AA3B875D9381 /* BHTextField.swift */; };
 		4A83ED142EFCE27A7370E3A4578F80F7 /* Pods-ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C69274B0D2D8F0D98ACC4C8CA096B9 /* Pods-ExampleTests-dummy.m */; };
-		51D45E056FD8556D541358608F213A9A /* UserInterfaceState.xcuserstate in Sources */ = {isa = PBXBuildFile; fileRef = 29A18F14182A2E40CAC6A6B8754A4761 /* UserInterfaceState.xcuserstate */; };
-		53841EBBBAA524AB86B01DB4EE0BFEF5 /* xcschememanagement.plist in Sources */ = {isa = PBXBuildFile; fileRef = D8022567980DC3D79FB2467A21884622 /* xcschememanagement.plist */; };
 		54DBFEC4D760C147CB3C914877C05ED2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		565B1360F9114E9607169AF307C34C62 /* contents.xcworkspacedata in Sources */ = {isa = PBXBuildFile; fileRef = 74CE41338E1B58085883D53836B986B5 /* contents.xcworkspacedata */; };
 		5D62E36DBB23869EAFE0556D7A2483D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		6BF6CDCCBE44A85D689580B96612AB98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8EBE2D8F0E22EA53699D66B7C56F5E56 /* BHTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 516CBDCC00C4208FF88AA9BDD41D7B59 /* BHTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1E6E8B26B25C8A836C29D8903CC9063 /* Pods-ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3B3D4048AA9BA2C33B29F5FA104D0 /* Pods-ExampleUITests-dummy.m */; };
 		B7003A67604B9C48108C09E19B1FAC75 /* Pods-ExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 178A1843150C3D11C184358961C1DA00 /* Pods-ExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD8A8B2CC84EDE873E3DB69FF22ACF92 /* BHTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5C83D740E09DB443E99B9B7EEA1ED7 /* BHTextField-dummy.m */; };
 		CFD7B8C512CEC612BA50C02C63A03F45 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11CB9C3A434DEEE23F07EB5D4E031AFC /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6A9941946D7B6DB1B0494604FB7BBC6 /* BHTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B56AE73B840FF4D7AFB466827FEEA7C /* BHTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E16BCE5BAC7CFE52FACE6E2665EC6BF2 /* project.pbxproj in Sources */ = {isa = PBXBuildFile; fileRef = 96345EB9FF975ECDB10172A230EE08F7 /* project.pbxproj */; };
-		E52E56B06663A84F20B3059C8341D20F /* BHTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4961A625C77295CEBC5AF6972A70C4C /* BHTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6C6B580A160FFDB3743FC8559C4C60B /* Pods-ExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2BB3904AF50B78447C7F11840C6A177 /* Pods-ExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E95988C0C5ACBB2516A1586BC7B032C7 /* IDEWorkspaceChecks.plist in Sources */ = {isa = PBXBuildFile; fileRef = AB82CFF9A6E7EE4E83795CF30618D4EC /* IDEWorkspaceChecks.plist */; };
-		EF0BF97F5B466827F226BD2C5F7240AA /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 30D4B6675A48075047BB1D74531A817E /* Info.plist */; };
+		FD33421E3011EB4AB0694B450CDB73F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +27,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7F58A07B481BDB805F691E83AEF4C5BA;
+			remoteGlobalIDString = FB0327ABD6D573A575B6D1C005D623CC;
 			remoteInfo = BHTextField;
 		};
 		1EAE96D55297D7CA35F2105BBEDA8452 /* PBXContainerItemProxy */ = {
@@ -58,55 +51,47 @@
 		0A57D66A2933EA5A6D7D178297535313 /* Pods-ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0E14626FC4DBDD6FF92478A45AEEF0A4 /* BHTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BHTextField.framework; path = BHTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CB9C3A434DEEE23F07EB5D4E031AFC /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		1226C66BBB82700A96D7E79FB30A3108 /* BHTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BHTextField.modulemap; sourceTree = "<group>"; };
 		178A1843150C3D11C184358961C1DA00 /* Pods-ExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleTests-umbrella.h"; sourceTree = "<group>"; };
 		1999090871C80F8AA3D9C805059128DE /* Pods_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleUITests.framework; path = "Pods-ExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		259D3F060506B273EDCB15C0B0CBB0C0 /* Pods-ExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleTests-frameworks.sh"; sourceTree = "<group>"; };
-		29A18F14182A2E40CAC6A6B8754A4761 /* UserInterfaceState.xcuserstate */ = {isa = PBXFileReference; includeInIndex = 1; path = UserInterfaceState.xcuserstate; sourceTree = "<group>"; };
-		305E24F261CA0DBFA628A74A2FE27756 /* BHTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BHTextField.modulemap; sourceTree = "<group>"; };
-		30D4B6675A48075047BB1D74531A817E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		383BEEEF6B652EBAC793A07C05DCDCE4 /* Pods-ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3B92E079A4B5B52CC99B057778779418 /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D6AFF93BE71819BC7AF0DC6111CD076 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4739B275C57837351B128A90F965DE61 /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		55CED4073FAF0604FFF0F3DE3AB9CC9E /* BHTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BHTextField-prefix.pch"; sourceTree = "<group>"; };
+		516CBDCC00C4208FF88AA9BDD41D7B59 /* BHTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BHTextField-umbrella.h"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A4401328F46A1FCE07D38B61A12E02D /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD14273AD07C2BE95A632D5F86283E8 /* Pods-ExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExampleUITests.modulemap"; sourceTree = "<group>"; };
 		667134F93CDFCBF0BF5232EA941A5311 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		6B8FC106ABF71528340EFC883E92923D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		718C19D45F63FBAF6139A8AEA689DE55 /* Pods-ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		74CE41338E1B58085883D53836B986B5 /* contents.xcworkspacedata */ = {isa = PBXFileReference; includeInIndex = 1; path = contents.xcworkspacedata; sourceTree = "<group>"; };
 		7B118F22309FD74786F99326BA20C441 /* Pods-ExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
 		7E1D04038B8AB65725B00BA158AE260F /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		829949EB3CDEF55443BF2131359EBB40 /* BHTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BHTextField-prefix.pch"; sourceTree = "<group>"; };
 		831C3A51B5077324E01B5FB69A51B0D1 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		8B56AE73B840FF4D7AFB466827FEEA7C /* BHTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BHTextField.h; sourceTree = "<group>"; };
+		8D97BC4ECEB9701E88CAAA27976D756E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8FDDCC1D86FFB03D20B27F34F269524E /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
 		92C69274B0D2D8F0D98ACC4C8CA096B9 /* Pods-ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleTests-dummy.m"; sourceTree = "<group>"; };
 		9350974E8DE104B76358CBD62349E1C5 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96345EB9FF975ECDB10172A230EE08F7 /* project.pbxproj */ = {isa = PBXFileReference; includeInIndex = 1; path = project.pbxproj; sourceTree = "<group>"; };
-		9AC55AE6FA6E699259C5E62314BC6AA4 /* BHTextFieldTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BHTextFieldTests.swift; sourceTree = "<group>"; };
-		9D3FBF0E871206980765604D49190E64 /* BHTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BHTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B5A53490B85E14EED4C0658C1CC3309 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9FE963925409C0B01B1E401237E2F7F5 /* Pods-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A07331F3C70EADDAB0FECB48522E2022 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		A3B1360207804EBFC8B18F6AD3BC3C92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A727F7F2C68AFEA6DFD8597F08931F82 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AB82CFF9A6E7EE4E83795CF30618D4EC /* IDEWorkspaceChecks.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = IDEWorkspaceChecks.plist; sourceTree = "<group>"; };
 		AE72E6C045DE864B4327194AFF0CD477 /* Pods-ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B2BB3904AF50B78447C7F11840C6A177 /* Pods-ExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleUITests-umbrella.h"; sourceTree = "<group>"; };
 		B7A5C5B6C5073DAAC675EE61691D29BA /* Pods-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B7F5962DE2448878C5E2B9014F50C62A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BA8903CF48C5E433CD86B8F03A97A4CE /* Pods_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleTests.framework; path = "Pods-ExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C262835658FDA9FC77E2CAF32EEC8760 /* BHTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BHTextField-dummy.m"; sourceTree = "<group>"; };
+		C38FC6834C25F0441520AA3B875D9381 /* BHTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BHTextField.swift; path = BHTextField/BHTextField/Classes/BHTextField.swift; sourceTree = "<group>"; };
 		C636DD6136609524DE666ECCA2F1AAFD /* Pods-ExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExampleTests.modulemap"; sourceTree = "<group>"; };
-		D8022567980DC3D79FB2467A21884622 /* xcschememanagement.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = xcschememanagement.plist; sourceTree = "<group>"; };
+		D6B4D6953C7CD7671756FF266E925ADA /* BHTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BHTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E6AC5C1C57BE1C75F412C6BE70BFDC21 /* BHTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BHTextField.xcconfig; sourceTree = "<group>"; };
 		E7BD04809B1A493F98D6D7D2BAD88F73 /* Pods-ExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleTests-resources.sh"; sourceTree = "<group>"; };
 		E9C1CF8E994F319977C8CBBAC8A00703 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB5C83D740E09DB443E99B9B7EEA1ED7 /* BHTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BHTextField-dummy.m"; sourceTree = "<group>"; };
 		EEA3B3D4048AA9BA2C33B29F5FA104D0 /* Pods-ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleUITests-dummy.m"; sourceTree = "<group>"; };
-		F1CD338C3084A4F7E837394529A3B6AD /* BHTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BHTextField.xcconfig; sourceTree = "<group>"; };
-		F4961A625C77295CEBC5AF6972A70C4C /* BHTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BHTextField-umbrella.h"; sourceTree = "<group>"; };
-		F521FA8DE573B50DF315BFC5226EB211 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F839837C5429C6F73C9BC5AAEA6F6745 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB0F9121E2624C3F9BF57EEFF2968D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEA94DB6F5FC45ADD3CDDCC189CBC313 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,11 +104,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5689CE320D8B8EBC4C12934BF4CA6648 /* Frameworks */ = {
+		866F542CF695DC910DEF2D821F15E520 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EB4F8C229525C6FFE131855462B3938 /* Foundation.framework in Frameworks */,
+				FD33421E3011EB4AB0694B450CDB73F3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,15 +131,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FA7168475432DF28627FCE9E83517CD /* xcuserdata */ = {
-			isa = PBXGroup;
-			children = (
-				929B4B5FCD7BE57BE21D9A5923ABAAA6 /* nattapongunaregul.xcuserdatad */,
-			);
-			name = xcuserdata;
-			path = xcuserdata;
-			sourceTree = "<group>";
-		};
 		15FBE881A4647B51B7A68C8B2CF39B73 /* Pods-Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,32 +149,12 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		1D1EF5E9CB035D34463858EDB552C2F3 /* BHTextFieldTests */ = {
+		1BACCF4FD0BB5660D0FDAD3C2FCA7942 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9AC55AE6FA6E699259C5E62314BC6AA4 /* BHTextFieldTests.swift */,
-				30D4B6675A48075047BB1D74531A817E /* Info.plist */,
+				62738DE04571923FBDA5BF97645B46A8 /* BHTextField */,
 			);
-			name = BHTextFieldTests;
-			path = BHTextField/BHTextFieldTests;
-			sourceTree = "<group>";
-		};
-		367BD8AE4D79013C9651DE7A080230E0 /* xcshareddata */ = {
-			isa = PBXGroup;
-			children = (
-				AB82CFF9A6E7EE4E83795CF30618D4EC /* IDEWorkspaceChecks.plist */,
-			);
-			name = xcshareddata;
-			path = xcshareddata;
-			sourceTree = "<group>";
-		};
-		426D339AB9C50746738D4636315D35AA /* xcuserdata */ = {
-			isa = PBXGroup;
-			children = (
-				CA7FF10BDCEB3A9D350F6A05479ECC6C /* nattapongunaregul.xcuserdatad */,
-			);
-			name = xcuserdata;
-			path = xcuserdata;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		57557C86D7700C692E4635633BEB1108 /* Targets Support Files */ = {
@@ -211,20 +167,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5AC4F2CF1C322EAC8AF394A4EA823F9C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				305E24F261CA0DBFA628A74A2FE27756 /* BHTextField.modulemap */,
-				F1CD338C3084A4F7E837394529A3B6AD /* BHTextField.xcconfig */,
-				EB5C83D740E09DB443E99B9B7EEA1ED7 /* BHTextField-dummy.m */,
-				55CED4073FAF0604FFF0F3DE3AB9CC9E /* BHTextField-prefix.pch */,
-				F4961A625C77295CEBC5AF6972A70C4C /* BHTextField-umbrella.h */,
-				F521FA8DE573B50DF315BFC5226EB211 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BHTextField";
-			sourceTree = "<group>";
-		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,25 +175,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		62738DE04571923FBDA5BF97645B46A8 /* BHTextField */ = {
+			isa = PBXGroup;
+			children = (
+				C38FC6834C25F0441520AA3B875D9381 /* BHTextField.swift */,
+				B5637D640DD44A38D88F65D701BF1F0B /* Pod */,
+				D95DF2171C3CD29D68A25B6B5CE0F0F6 /* Support Files */,
+			);
+			name = BHTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F4414E6CDFE77579E38853D159717D5F /* Development Pods */,
+				1BACCF4FD0BB5660D0FDAD3C2FCA7942 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				8104E66210D11D0682B02179FAEBDC9D /* Products */,
 				57557C86D7700C692E4635633BEB1108 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7F61D369116163C2FBBEA21E56754FD6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9D3FBF0E871206980765604D49190E64 /* BHTextField.podspec */,
-				B7F5962DE2448878C5E2B9014F50C62A /* LICENSE */,
-				6B8FC106ABF71528340EFC883E92923D /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		8104E66210D11D0682B02179FAEBDC9D /* Products */ = {
@@ -263,17 +206,6 @@
 				1999090871C80F8AA3D9C805059128DE /* Pods_ExampleUITests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		875E27B348724D31DA5B320A62B3A532 /* project.xcworkspace */ = {
-			isa = PBXGroup;
-			children = (
-				74CE41338E1B58085883D53836B986B5 /* contents.xcworkspacedata */,
-				367BD8AE4D79013C9651DE7A080230E0 /* xcshareddata */,
-				426D339AB9C50746738D4636315D35AA /* xcuserdata */,
-			);
-			name = project.xcworkspace;
-			path = project.xcworkspace;
 			sourceTree = "<group>";
 		};
 		8957F43E935652A70220687E640E8C55 /* Pods-ExampleTests */ = {
@@ -294,25 +226,6 @@
 			path = "Target Support Files/Pods-ExampleTests";
 			sourceTree = "<group>";
 		};
-		929B4B5FCD7BE57BE21D9A5923ABAAA6 /* nattapongunaregul.xcuserdatad */ = {
-			isa = PBXGroup;
-			children = (
-				C25BC1E83FBC8CDFE1142BACE8A14598 /* xcschemes */,
-			);
-			name = nattapongunaregul.xcuserdatad;
-			path = nattapongunaregul.xcuserdatad;
-			sourceTree = "<group>";
-		};
-		92ED28BE99FAB9CB61FD5ED7D2CC9B28 /* BHTextField */ = {
-			isa = PBXGroup;
-			children = (
-				8B56AE73B840FF4D7AFB466827FEEA7C /* BHTextField.h */,
-				F839837C5429C6F73C9BC5AAEA6F6745 /* Info.plist */,
-			);
-			name = BHTextField;
-			path = BHTextField/BHTextField;
-			sourceTree = "<group>";
-		};
 		A5C9A17B95F1296241878B5F5F65B2CC /* Pods-ExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -331,15 +244,14 @@
 			path = "Target Support Files/Pods-ExampleUITests";
 			sourceTree = "<group>";
 		};
-		BBFD1B5863EFCEDC8C372A89A80953E0 /* BHTextField.xcodeproj */ = {
+		B5637D640DD44A38D88F65D701BF1F0B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				96345EB9FF975ECDB10172A230EE08F7 /* project.pbxproj */,
-				875E27B348724D31DA5B320A62B3A532 /* project.xcworkspace */,
-				0FA7168475432DF28627FCE9E83517CD /* xcuserdata */,
+				D6B4D6953C7CD7671756FF266E925ADA /* BHTextField.podspec */,
+				9B5A53490B85E14EED4C0658C1CC3309 /* LICENSE */,
+				8D97BC4ECEB9701E88CAAA27976D756E /* README.md */,
 			);
-			name = BHTextField.xcodeproj;
-			path = BHTextField/BHTextField.xcodeproj;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -350,48 +262,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C25BC1E83FBC8CDFE1142BACE8A14598 /* xcschemes */ = {
+		D95DF2171C3CD29D68A25B6B5CE0F0F6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D8022567980DC3D79FB2467A21884622 /* xcschememanagement.plist */,
+				1226C66BBB82700A96D7E79FB30A3108 /* BHTextField.modulemap */,
+				E6AC5C1C57BE1C75F412C6BE70BFDC21 /* BHTextField.xcconfig */,
+				C262835658FDA9FC77E2CAF32EEC8760 /* BHTextField-dummy.m */,
+				829949EB3CDEF55443BF2131359EBB40 /* BHTextField-prefix.pch */,
+				516CBDCC00C4208FF88AA9BDD41D7B59 /* BHTextField-umbrella.h */,
+				FAB0F9121E2624C3F9BF57EEFF2968D7 /* Info.plist */,
 			);
-			name = xcschemes;
-			path = xcschemes;
-			sourceTree = "<group>";
-		};
-		CA7FF10BDCEB3A9D350F6A05479ECC6C /* nattapongunaregul.xcuserdatad */ = {
-			isa = PBXGroup;
-			children = (
-				29A18F14182A2E40CAC6A6B8754A4761 /* UserInterfaceState.xcuserstate */,
-			);
-			name = nattapongunaregul.xcuserdatad;
-			path = nattapongunaregul.xcuserdatad;
-			sourceTree = "<group>";
-		};
-		EDF8CC97DDC14A490E85903DA7997C03 /* BHTextField */ = {
-			isa = PBXGroup;
-			children = (
-				92ED28BE99FAB9CB61FD5ED7D2CC9B28 /* BHTextField */,
-				BBFD1B5863EFCEDC8C372A89A80953E0 /* BHTextField.xcodeproj */,
-				1D1EF5E9CB035D34463858EDB552C2F3 /* BHTextFieldTests */,
-				7F61D369116163C2FBBEA21E56754FD6 /* Pod */,
-				5AC4F2CF1C322EAC8AF394A4EA823F9C /* Support Files */,
-			);
-			name = BHTextField;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F4414E6CDFE77579E38853D159717D5F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EDF8CC97DDC14A490E85903DA7997C03 /* BHTextField */,
-			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BHTextField";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		7651240061DB7E5F67DCA95395521327 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBE2D8F0E22EA53699D66B7C56F5E56 /* BHTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85B9510E764A9541309A59933914B87B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -416,15 +311,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC59811C0B6E1CCB321B66DF4E22545C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E52E56B06663A84F20B3059C8341D20F /* BHTextField-umbrella.h in Headers */,
-				D6A9941946D7B6DB1B0494604FB7BBC6 /* BHTextField.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -446,23 +332,6 @@
 			productReference = BA8903CF48C5E433CD86B8F03A97A4CE /* Pods_ExampleTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7F58A07B481BDB805F691E83AEF4C5BA /* BHTextField */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 093598845D1C58423BCF3520D21B5F7F /* Build configuration list for PBXNativeTarget "BHTextField" */;
-			buildPhases = (
-				8C2C8BFC1B6DAC1B5242EA06BAA5A98E /* Sources */,
-				5689CE320D8B8EBC4C12934BF4CA6648 /* Frameworks */,
-				FC59811C0B6E1CCB321B66DF4E22545C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BHTextField;
-			productName = BHTextField;
-			productReference = 0E14626FC4DBDD6FF92478A45AEEF0A4 /* BHTextField.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		D6B01D01DC2D4D43A6F54F4780B6B376 /* Pods-ExampleUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5ECFA2CA7FF948CA9A3A5A8ACB4EA1E /* Build configuration list for PBXNativeTarget "Pods-ExampleUITests" */;
@@ -479,6 +348,23 @@
 			name = "Pods-ExampleUITests";
 			productName = "Pods-ExampleUITests";
 			productReference = 1999090871C80F8AA3D9C805059128DE /* Pods_ExampleUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB0327ABD6D573A575B6D1C005D623CC /* BHTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2D71863C98A50DEDFC7CD438FD1502 /* Build configuration list for PBXNativeTarget "BHTextField" */;
+			buildPhases = (
+				37659B1C13A46FA22719792642FCB285 /* Sources */,
+				866F542CF695DC910DEF2D821F15E520 /* Frameworks */,
+				7651240061DB7E5F67DCA95395521327 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BHTextField;
+			productName = BHTextField;
+			productReference = 0E14626FC4DBDD6FF92478A45AEEF0A4 /* BHTextField.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FFA872C5B0224FBE1F02681022EADD37 /* Pods-Example */ = {
@@ -520,7 +406,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F58A07B481BDB805F691E83AEF4C5BA /* BHTextField */,
+				FB0327ABD6D573A575B6D1C005D623CC /* BHTextField */,
 				FFA872C5B0224FBE1F02681022EADD37 /* Pods-Example */,
 				568D93DC60BD55D80E9749DEE51D6A37 /* Pods-ExampleTests */,
 				D6B01D01DC2D4D43A6F54F4780B6B376 /* Pods-ExampleUITests */,
@@ -529,27 +415,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		37659B1C13A46FA22719792642FCB285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3325BA70B10B80D8E1CA3619118C215E /* BHTextField-dummy.m in Sources */,
+				3BFB139781CD437847AA005E47903325 /* BHTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48869A4DCAC6506AB7BC971D89D9154D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1369347DCDEC1C5837CBA36AA54306CB /* Pods-Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C2C8BFC1B6DAC1B5242EA06BAA5A98E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD8A8B2CC84EDE873E3DB69FF22ACF92 /* BHTextField-dummy.m in Sources */,
-				07DD890CFE3A816C7262BCCC502EC839 /* BHTextFieldTests.swift in Sources */,
-				565B1360F9114E9607169AF307C34C62 /* contents.xcworkspacedata in Sources */,
-				E95988C0C5ACBB2516A1586BC7B032C7 /* IDEWorkspaceChecks.plist in Sources */,
-				EF0BF97F5B466827F226BD2C5F7240AA /* Info.plist in Sources */,
-				EF0BF97F5B466827F226BD2C5F7240AA /* Info.plist in Sources */,
-				E16BCE5BAC7CFE52FACE6E2665EC6BF2 /* project.pbxproj in Sources */,
-				51D45E056FD8556D541358608F213A9A /* UserInterfaceState.xcuserstate in Sources */,
-				53841EBBBAA524AB86B01DB4EE0BFEF5 /* xcschememanagement.plist in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,7 +460,7 @@
 		3D7A6C85D900094A0031AE67F0896DA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BHTextField;
-			target = 7F58A07B481BDB805F691E83AEF4C5BA /* BHTextField */;
+			target = FB0327ABD6D573A575B6D1C005D623CC /* BHTextField */;
 			targetProxy = 1BC9E1BF71862AE4CDFCDC663E6F21FB /* PBXContainerItemProxy */;
 		};
 		D658771F68219972890991FF97BCB095 /* PBXTargetDependency */ = {
@@ -631,6 +510,62 @@
 			};
 			name = Debug;
 		};
+		1B2EC1D7A47E28BC55722364F07069AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 		3A47F201F7B4A9F8503EB822C1C2CF26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9FE963925409C0B01B1E401237E2F7F5 /* Pods-ExampleUITests.release.xcconfig */;
@@ -670,7 +605,45 @@
 			};
 			name = Release;
 		};
-		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+		411CF776487FBDBC29484306315D570A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6AC5C1C57BE1C75F412C6BE70BFDC21 /* BHTextField.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BHTextField/BHTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BHTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BHTextField/BHTextField.modulemap";
+				PRODUCT_MODULE_NAME = BHTextField;
+				PRODUCT_NAME = BHTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A4B48B2D79B8BEAACA512EC871E6FC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -702,8 +675,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -732,64 +703,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		703082A85162812D3B777E668767AD25 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
 		};
 		AE3362EDB5AAB4A26F4235F8C5D48BF1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -870,9 +783,9 @@
 			};
 			name = Release;
 		};
-		CBF874A6F5E5F06A1C46AA7E3663D72B /* Debug */ = {
+		D6D305D1F0CE722973B208477F68C7D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1CD338C3084A4F7E837394529A3B6AD /* BHTextField.xcconfig */;
+			baseConfigurationReference = E6AC5C1C57BE1C75F412C6BE70BFDC21 /* BHTextField.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -985,61 +898,14 @@
 			};
 			name = Debug;
 		};
-		F819C6C45176EA535E3A82AC27C0FA13 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1CD338C3084A4F7E837394529A3B6AD /* BHTextField.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BHTextField/BHTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BHTextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/BHTextField/BHTextField.modulemap";
-				PRODUCT_MODULE_NAME = BHTextField;
-				PRODUCT_NAME = BHTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		093598845D1C58423BCF3520D21B5F7F /* Build configuration list for PBXNativeTarget "BHTextField" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CBF874A6F5E5F06A1C46AA7E3663D72B /* Debug */,
-				F819C6C45176EA535E3A82AC27C0FA13 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
-				703082A85162812D3B777E668767AD25 /* Release */,
+				5A4B48B2D79B8BEAACA512EC871E6FC5 /* Debug */,
+				1B2EC1D7A47E28BC55722364F07069AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1067,6 +933,15 @@
 			buildConfigurations = (
 				0B0314AB51762256385C15ECD83A15A4 /* Debug */,
 				3A47F201F7B4A9F8503EB822C1C2CF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2D71863C98A50DEDFC7CD438FD1502 /* Build configuration list for PBXNativeTarget "BHTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D305D1F0CE722973B208477F68C7D4 /* Debug */,
+				411CF776487FBDBC29484306315D570A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

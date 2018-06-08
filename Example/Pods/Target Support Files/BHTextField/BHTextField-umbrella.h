@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "BHTextField.h"
 
 FOUNDATION_EXPORT double BHTextFieldVersionNumber;
 FOUNDATION_EXPORT const unsigned char BHTextFieldVersionString[];
