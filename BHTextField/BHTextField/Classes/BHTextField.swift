@@ -14,7 +14,7 @@ import UIKit
     @objc optional func textDidChange(sender : BHTextField)
 }
 extension BHTextField : UITextFieldDelegate{
-    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
+    public func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
         if inputType == .normal {
             shallAnimateBottomPath(shouldShow: false)
         } else if inputType == .email {
@@ -27,7 +27,7 @@ extension BHTextField : UITextFieldDelegate{
         return true
     }
     
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         if inputType == .normal {
             shallAnimateBottomPath(shouldShow: false)
         } else if inputType == .email {
@@ -39,7 +39,7 @@ extension BHTextField : UITextFieldDelegate{
         }
         return delegate?.textFieldShouldReturn(sender: self, textField: textField) ?? true
     }
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if inputType == .passport {
             if range.location >= 25{
                 return false;
@@ -65,7 +65,7 @@ extension BHTextField : UITextFieldDelegate{
     }
 }
 @IBDesignable
-class BHTextField: UIControl {
+open class BHTextField: UIControl {
     var valueForDropdownList : String?
     weak var delegate : BHTextFieldDelegate?
     @IBInspectable
@@ -136,7 +136,7 @@ class BHTextField: UIControl {
             lb_rightAwesomeIcon.font = UIFont(name: fontAwesomeName, size: 18)
         }
     }
-    override func becomeFirstResponder() -> Bool {
+    override open func becomeFirstResponder() -> Bool {
         return self.txt_input.becomeFirstResponder()
     }
     func setFont(fontName name : String? ,fontSize size : CGFloat)  {
@@ -267,13 +267,12 @@ class BHTextField: UIControl {
         setUpToolBar()
         return dp
     }()
-    
     fileprivate var dateFormatter : DateFormatter = {
         let df = DateFormatter()
         df.dateFormat = "dd/MM/yyyy"
+        df.locale = Locale(identifier: "en")
         return df
     }()
-    
     @objc func datePickerChanged( sender : UIDatePicker) {
         let formatedDateInStr = dateFormatter.string(from: datePicker.date)
         inputDate = datePicker.date
@@ -402,7 +401,7 @@ class BHTextField: UIControl {
         super.init(frame: frame)
         sharedInitilization()
     }
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         sharedInitilization()
     }
@@ -438,7 +437,7 @@ class BHTextField: UIControl {
     lazy var bottomLineLayer = CAShapeLayer()
     lazy var staticBottomLineLayer = CAShapeLayer()
     lazy var bottomLinePath  = UIBezierPath()
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         if !haslayoutSubviews {
             haslayoutSubviews = true
@@ -549,12 +548,10 @@ extension BHTextField {
         return text.replacingOccurrences(of: " - ", with: "")
     }
     func validDate(text : String?, dateFormat : String) -> Bool {
-        guard text != nil && text != "" else {
+        guard let textNotNil = text , textNotNil != "" else {
             return true
         }
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = dateFormat
-        return dateFormatter.date(from: text!) != nil
+        return dateFormatter.date(from: textNotNil) != nil
     }
     var isValidDate : Bool {
         get{
