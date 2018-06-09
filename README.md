@@ -20,4 +20,5 @@ swift 4.0++
 
 To start using the component add it to your project using CocoaPods.
 The UI component can be used via the `BHTextField` class. This control can be used very similar to `UITextField` - both from Interface Builder, or from code.
+
 ![](https://github.com/tylerlantern/BHTextField/blob/master/Images/usageExample.gif)
