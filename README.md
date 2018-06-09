@@ -10,7 +10,7 @@
 [![Documentation](https://img.shields.io/cocoapods/metrics/doc-percent/SkyFloatingLabelTextField.svg)](http://cocoadocs.org/docsets/SkyFloatingLabelTextField/)
 [![Readme Score](http://readme-score-api.herokuapp.com/score.svg?url=https://github.com/Skyscanner/SkyFloatingLabelTextField)](http://clayallsopp.github.io/readme-score?url=https://github.com/Skyscanner/SkyFloatingLabelTextField)
 
-`BHTextField` is a textfield that i have been using for several project. I would like to contribute and share.It is easy to use and friendly to storyboard. There are error message, field validation such as email, passport identification(Thailand), BirthDate
+`BHTextField` is a textfield that i have been using for several project. I would like to contribute and share.It is easy to use and friendly to storyboard. There are error message, field validation such as email, passport identification(Thailand) and birthdate.
 
 ## Versioning
 
@@ -20,5 +20,5 @@ swift 4.0++
 
 To start using the component add it to your project using CocoaPods.
 The UI component can be used via the `BHTextField` class. This control can be used very similar to `UITextField` - both from Interface Builder, or from code.
-
+</br>
 ![](https://github.com/tylerlantern/BHTextField/blob/master/Images/usageExample.gif)
