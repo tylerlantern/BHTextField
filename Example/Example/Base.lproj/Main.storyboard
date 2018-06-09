@@ -18,20 +18,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ls-Ff-6qU" customClass="BHTextField" customModule="BHTextField">
-                                <rect key="frame" x="40" y="124" width="295" height="35"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="placeHolder" value="dwad"/>
-                                </userDefinedRuntimeAttributes>
-                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="3f1-b9-DFO">
+                                <rect key="frame" x="40" y="124" width="295" height="212"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ls-Ff-6qU" customClass="BHTextField" customModule="BHTextField">
+                                        <rect key="frame" x="0.0" y="0.0" width="295" height="35"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="placeHolder" value="FirstName"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aiz-Hc-oy2" customClass="BHTextField" customModule="BHTextField">
+                                        <rect key="frame" x="0.0" y="59" width="295" height="35"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="placeHolder" value="LastName"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mSk-Ta-ro1" customClass="BHTextField" customModule="BHTextField">
+                                        <rect key="frame" x="0.0" y="118" width="295" height="35"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="placeHolder" value="Email"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="inputTypeAdapter">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="errorMessage" value="Invalid Email"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EMd-UN-bkC" customClass="BHTextField" customModule="BHTextField">
+                                        <rect key="frame" x="0.0" y="177" width="295" height="35"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="placeHolder" value="Passport Identifiation"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="7ls-Ff-6qU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="4mu-Fr-LkQ"/>
-                            <constraint firstItem="7ls-Ff-6qU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5tW-X6-wj1"/>
-                            <constraint firstItem="7ls-Ff-6qU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="104" id="XrI-wZ-mZ2"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7ls-Ff-6qU" secondAttribute="trailing" constant="40" id="sHE-HQ-awb"/>
+                            <constraint firstItem="3f1-b9-DFO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="104" id="HGT-fV-gQ7"/>
+                            <constraint firstItem="3f1-b9-DFO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="dae-LY-nHJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3f1-b9-DFO" secondAttribute="trailing" constant="40" id="wxO-IQ-0hK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

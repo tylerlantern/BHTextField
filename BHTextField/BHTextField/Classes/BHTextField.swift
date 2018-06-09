@@ -117,11 +117,13 @@ open class BHTextField: UIControl {
     @objc func didTapGestureForDropdownList(sender: UITapGestureRecognizer){
         delegate?.didTapForDropdownlistMode?(sender: self)
     }
+    @IBInspectable
     var fontName : String?  {
         didSet{
             setFont(fontName: fontName, fontSize: fontSize)
         }
     }
+     @IBInspectable
     var fontSize : CGFloat = 20 {
         didSet{
             setFont(fontName: fontName, fontSize: fontSize)
@@ -140,11 +142,11 @@ open class BHTextField: UIControl {
         return self.txt_input.becomeFirstResponder()
     }
     func setFont(fontName name : String? ,fontSize size : CGFloat)  {
-        guard let name = name else {
+        guard let name = name ,        let font =  UIFont(name: name, size: size) else {
             txt_input.font = UIFont.systemFont(ofSize: size)
             return
         }
-        txt_input.font = UIFont(name: name, size: size)
+        txt_input.font = font
     }
     enum InputType:Int {
         case normal = 0
@@ -417,10 +419,15 @@ open class BHTextField: UIControl {
         
         setFont(fontName: self.fontName, fontSize: self.fontSize)
     }
+    fileprivate let defaultFont = UIFont.systemFont(ofSize:  20)
     func setUpPlaceHolder(){
+        var font : UIFont = defaultFont
+        if let fontName = self.fontName , fontName != "" {
+            font = UIFont(name: fontName, size: self.fontSize) ?? defaultFont
+        }
         txt_input.attributedPlaceholder = NSAttributedString(string: self.placeHolder ?? ""
             , attributes: [NSAttributedStringKey.foregroundColor : UIColor(red: 149/255, green: 149/255, blue: 149/255, alpha: 0.7)
-                
+                ,NSAttributedStringKey.font :font
             ])
     }
     func setUpGesture(){
