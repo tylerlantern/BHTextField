@@ -14,6 +14,8 @@ import UIKit
     @objc optional func textDidChange(sender : BHTextField)
 }
 extension BHTextField : UITextFieldDelegate{
+    static var textInputColor : UIColor = UIColor(red: 99/255, green: 99/255, blue: 99/255, alpha: 1.0)
+    
     public func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
         if inputType == .normal {
             shallAnimateBottomPath(shouldShow: false)
@@ -51,15 +53,6 @@ extension BHTextField : UITextFieldDelegate{
                 let targetIndex = text.index(text.endIndex, offsetBy: -3)
                 textField.text =  String(text[..<targetIndex])
             }
-            
-        }else if inputType == .pinPassword {
-            let maxLength = 6
-            guard let currentString: NSString = textField.text as NSString? else {
-                return true
-            }
-            let newString: NSString =
-                currentString.replacingCharacters(in: range, with: string) as NSString
-            return newString.length <= maxLength
         }
         return true
     }
@@ -155,7 +148,7 @@ open class BHTextField: UIControl {
         case birthDate = 3
         case numberic = 4
         case passwordNumberic = 5
-        case pinPassword = 6
+//        case pinPassword = 6
     }
     var isEmpty : Bool {
         return (txt_input.text == "" || txt_input.text == nil) ? true : false
@@ -171,13 +164,13 @@ open class BHTextField: UIControl {
     }
     var inputType : InputType = .normal {
         didSet{
-            self.txt_input.isSecureTextEntry = (inputType == .passwordNumberic || inputType == .pinPassword ) ? true : false
+            self.txt_input.isSecureTextEntry = (inputType == .passwordNumberic ) ? true : false
             if inputType == .birthDate {
                 self.txt_input.inputView = datePicker
             }else if inputType == .passport {
                 setUpToolBar()
                 self.txt_input.keyboardType = .decimalPad
-            }else if inputType == .passwordNumberic  || inputType == .numberic || inputType == .pinPassword {
+            }else if inputType == .passwordNumberic  || inputType == .numberic {
                 setUpToolBar()
                 self.txt_input.keyboardType = .decimalPad
             }else if inputType == .normal {
@@ -395,7 +388,7 @@ open class BHTextField: UIControl {
         txt.borderStyle = .none
         txt.textAlignment = .left
         txt.clearButtonMode = .whileEditing
-        txt.textColor = UIColor(red: 99/255, green: 99/255, blue: 99/255, alpha: 1.0)
+        txt.textColor =  BHTextField.textInputColor
         txt.delegate = self
         return txt
     }()
