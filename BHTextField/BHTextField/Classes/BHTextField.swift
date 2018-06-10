@@ -300,19 +300,6 @@ open class BHTextField: UIControl {
         }
     }
     @IBInspectable
-    var rightIcon : UIImage? {
-        didSet{
-            if let rightIcon = rightIcon {
-                imv_rightIcon.image = rightIcon
-                stackViewHorizontal.addArrangedSubview(imv_rightIcon)
-                setUpIconConstraint(imv: imv_rightIcon, ratioMultiplier: 0.4)
-            }else {
-                stackViewHorizontal.removeArrangedSubview(imv_rightIcon)
-                imv_rightIcon.image = nil
-            }
-        }
-    }
-    @IBInspectable
     var rightAwesomeIcon : String? {
         didSet{
             if let rightAwesomeIcon = rightAwesomeIcon , rightAwesomeIcon != ""{
@@ -326,6 +313,19 @@ open class BHTextField: UIControl {
                     stackViewHorizontal.removeArrangedSubview(lb_rightAwesomeIcon)
                     
                 }
+            }
+        }
+    }
+    @IBInspectable
+    var rightIcon : UIImage? {
+        didSet{
+            if let rightIcon = rightIcon {
+                imv_rightIcon.image = rightIcon
+                stackViewHorizontal.addArrangedSubview(imv_rightIcon)
+                setUpIconConstraint(imv: imv_rightIcon, ratioMultiplier: 0.4)
+            }else {
+                stackViewHorizontal.removeArrangedSubview(imv_rightIcon)
+                imv_rightIcon.image = nil
             }
         }
     }
