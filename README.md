@@ -18,14 +18,14 @@ The UI component can be used via the `BHTextField` class. This control can be us
 `BHTextField` is implemented base on UIControl. Drag a view to storyboard and change class to `BHTextField`.
 - `Placeholder`
 - `enableTouchableOnRightIcon` enable event on tapping right icon if exist
-- `enableDropdownList` if enable. user can not type anything to the field. It can be mannaully set text by code.
+- `enableDropdownList` if enable. user can not type anything to the field. It can be manually set text by code.
 - `inputTypeAdapter` There are 6 type of them which are
      - normal
      - email
      - passport
      - birthDate
-     - numberic
-     - passwordNumberic
+     - numeric
+     - passwordNumeric
 
 #### Right icon setup
 `BHTextField` provides two options to set right icon. They can be set once at a time. Do not set them togather.
