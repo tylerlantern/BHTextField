@@ -19,7 +19,7 @@ The UI component can be used via the `BHTextField` class. This control can be us
 - `Placeholder`
 - `enableTouchableOnRightIcon` enable event on tapping right icon if exist
 - `enableDropdownList` if enable. user can not type anything to the field. It can be mannaully set text by code.
-##### Right icon setup
+#### Right icon setup
 `BHTextField` provides two options to set right icon. They can be set once at a time. Do not set them togather.
 - `rightAwesomeIcon` awesome icon's name
 - `rightIcon` it set an image to the UIImageView.
