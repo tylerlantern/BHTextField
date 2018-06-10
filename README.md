@@ -1,6 +1,6 @@
 # BHTextField
 
-`BHTextField` is a textfield that i have been using for several project. I would like to contribute and share.It is easy to use and friendly to storyboard. There are error message, field validation such as email, passport identification(Thailand) and birthdate.
+`BHTextField` is a textfield that i have been using for several project. I would like to contribute and share.It is easy to use and friendly to storyboard. There are many features like error message, field validation(email, passport identification(Thailand) and birthdate).
 
 ## Versioning
 
