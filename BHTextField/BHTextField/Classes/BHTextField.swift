@@ -13,58 +13,26 @@ import UIKit
     @objc optional func didTapForDropdownlistMode( sender : BHTextField )
     @objc optional func textDidChange(sender : BHTextField)
 }
-extension BHTextField : UITextFieldDelegate{
-    static var textInputColor : UIColor = UIColor(red: 99/255, green: 99/255, blue: 99/255, alpha: 1.0)
-    
-    public func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
-        if inputType == .normal {
-            shallAnimateBottomPath(shouldShow: false)
-        } else if inputType == .email {
-            let isValid = validEmail(text: textField.text)
-            shallAnimateBottomPath(shouldShow: !isValid)
-        } else if inputType == .birthDate {
-            let isValid = validDate(text: textField.text, dateFormat: dateFormatter.dateFormat)
-            shallAnimateBottomPath(shouldShow: !isValid)
-        }
-        return true
-    }
-    
-    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        if inputType == .normal {
-            shallAnimateBottomPath(shouldShow: false)
-        } else if inputType == .email {
-            let isValid = validEmail(text: textField.text)
-            shallAnimateBottomPath(shouldShow: !isValid)
-        } else if inputType == .birthDate {
-            let isValid = validDate(text: textField.text, dateFormat: dateFormatter.dateFormat)
-            shallAnimateBottomPath(shouldShow: !isValid)
-        }
-        return delegate?.textFieldShouldReturn(sender: self, textField: textField) ?? true
-    }
-    public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        if inputType == .passport {
-            if range.location >= 25{
-                return false;
-            }
-            if((range.location == 1 || range.location == 8 || range.location == 16 || range.location == 21) && range.length == 0){
-                textField.text = String(format: "%@ - ", arguments: [textField.text ?? ""])
-            }else if((range.location == 4 || range.location == 11 || range.location == 19 || range.location == 24)  && range.length == 1){
-                let text = textField.text  ?? ""
-                let targetIndex = text.index(text.endIndex, offsetBy: -3)
-                textField.text =  String(text[..<targetIndex])
-            }
-        }
-        return true
-    }
-}
 @IBDesignable
 open class BHTextField: UIControl {
+    @objc public dynamic var textInputColor: UIColor? = UIColor(red: 99/255, green: 99/255, blue: 99/255, alpha: 1.0) {
+        didSet {
+            self.txt_input.textColor = textInputColor
+        }
+    }
+    @objc public dynamic var placeholderColor: UIColor = UIColor.lightGray {
+        didSet {
+            setUpPlaceHolder()
+        }
+    }
     var valueForDropdownList : String?
     weak var delegate : BHTextFieldDelegate?
     @IBInspectable
-    var placeHolder : String?{
+    var placeHolder : String? {
         didSet{
-            setUpPlaceHolder()
+            #if TARGET_INTERFACE_BUILDER
+                setUpPlaceHolder()
+            #endif
         }
     }
     @IBInspectable
@@ -388,7 +356,6 @@ open class BHTextField: UIControl {
         txt.borderStyle = .none
         txt.textAlignment = .left
         txt.clearButtonMode = .whileEditing
-        txt.textColor =  BHTextField.textInputColor
         txt.delegate = self
         return txt
     }()
@@ -418,10 +385,10 @@ open class BHTextField: UIControl {
         if let fontName = self.fontName , fontName != "" {
             font = UIFont(name: fontName, size: self.fontSize) ?? defaultFont
         }
-        txt_input.attributedPlaceholder = NSAttributedString(string: self.placeHolder ?? ""
-            , attributes: [NSAttributedStringKey.foregroundColor : UIColor(red: 149/255, green: 149/255, blue: 149/255, alpha: 0.7)
+       txt_input.attributedPlaceholder = NSAttributedString(string: self.placeHolder ?? ""
+            , attributes: [NSAttributedStringKey.foregroundColor :  self.placeholderColor
                 ,NSAttributedStringKey.font :font
-            ])
+        ])
     }
     func setUpGesture(){
         txt_input.addTarget(self, action: #selector(self.textDidChange(sender:)) , for: .editingChanged)
@@ -566,4 +533,47 @@ extension BHTextField {
         return text!.range(of: "[^0-9]", options: .regularExpression) == nil && !isEmpty
     }
     
+}
+extension BHTextField : UITextFieldDelegate{
+    
+    public func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
+        if inputType == .normal {
+            shallAnimateBottomPath(shouldShow: false)
+        } else if inputType == .email {
+            let isValid = validEmail(text: textField.text)
+            shallAnimateBottomPath(shouldShow: !isValid)
+        } else if inputType == .birthDate {
+            let isValid = validDate(text: textField.text, dateFormat: dateFormatter.dateFormat)
+            shallAnimateBottomPath(shouldShow: !isValid)
+        }
+        return true
+    }
+    
+    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if inputType == .normal {
+            shallAnimateBottomPath(shouldShow: false)
+        } else if inputType == .email {
+            let isValid = validEmail(text: textField.text)
+            shallAnimateBottomPath(shouldShow: !isValid)
+        } else if inputType == .birthDate {
+            let isValid = validDate(text: textField.text, dateFormat: dateFormatter.dateFormat)
+            shallAnimateBottomPath(shouldShow: !isValid)
+        }
+        return delegate?.textFieldShouldReturn(sender: self, textField: textField) ?? true
+    }
+    public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        if inputType == .passport {
+            if range.location >= 25{
+                return false;
+            }
+            if((range.location == 1 || range.location == 8 || range.location == 16 || range.location == 21) && range.length == 0){
+                textField.text = String(format: "%@ - ", arguments: [textField.text ?? ""])
+            }else if((range.location == 4 || range.location == 11 || range.location == 19 || range.location == 24)  && range.length == 1){
+                let text = textField.text  ?? ""
+                let targetIndex = text.index(text.endIndex, offsetBy: -3)
+                textField.text =  String(text[..<targetIndex])
+            }
+        }
+        return true
+    }
 }

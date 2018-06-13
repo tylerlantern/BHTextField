@@ -26,7 +26,6 @@ The UI component can be used via the `BHTextField` class. This control can be us
      - birthDate
      - numeric
      - passwordNumeric
-
 #### Right icon setup
 `BHTextField` provides two options to set right icon. They can be set once at a time. Do not set them togather.
 - `rightAwesomeIcon` awesome icon's name
@@ -35,7 +34,15 @@ The UI component can be used via the `BHTextField` class. This control can be us
 
 
 ### Colors
-Implementing
+BHTextfield can set its appearance at appDelegate `didFinishLaunchingWithOptions` function
+```
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
+        BHTextField.appearance().textInputColor = UIColor.red
+        BHTextField.appearance().placeholderColor = UIColor.brown
+        return true
+}
+```
 
 
 ## License

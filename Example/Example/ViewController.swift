@@ -9,17 +9,14 @@
 import UIKit
 import BHTextField
 class ViewController: UIViewController {
-
+    @IBOutlet weak var txt_firstName: BHTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        txt_firstName.textInputColor = UIColor.blue
+        txt_firstName.placeholderColor = UIColor.cyan
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
 }
 
