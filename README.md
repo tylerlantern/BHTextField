@@ -35,7 +35,7 @@ The UI component can be used via the `BHTextField` class. This control can be us
 
 ### Colors
 BHTextfield can set its appearance at appDelegate `didFinishLaunchingWithOptions` function
-```
+```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         BHTextField.appearance().textInputColor = UIColor.red
