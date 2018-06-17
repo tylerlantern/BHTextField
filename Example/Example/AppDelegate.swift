@@ -18,6 +18,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         BHTextField.appearance().textInputColor = UIColor.red
         BHTextField.appearance().placeholderColor = UIColor.brown
+        BHTextField.appearance().textInputFont = UIFont(name: "PingFangSC-Medium", size: 20 )
+        
+        for family in UIFont.familyNames {
+            print("\(family)")
+            
+            for name in UIFont.fontNames(forFamilyName: family) {
+                print("   \(name)")
+            }
+        }
+        
         return true
     }
 

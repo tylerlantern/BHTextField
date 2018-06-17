@@ -31,7 +31,7 @@ open class BHTextField: UIControl {
     var placeHolder : String? {
         didSet{
             #if TARGET_INTERFACE_BUILDER
-                setUpPlaceHolder()
+            setUpPlaceHolder()
             #endif
         }
     }
@@ -78,19 +78,24 @@ open class BHTextField: UIControl {
     @objc func didTapGestureForDropdownList(sender: UITapGestureRecognizer){
         delegate?.didTapForDropdownlistMode?(sender: self)
     }
+    @objc public dynamic var textInputFont : UIFont? = nil {
+        didSet{
+            txt_input.font = textInputFont
+        }
+    }
     @IBInspectable
-    var fontName : String?  {
+    @objc public dynamic var fontName : String?  {
         didSet{
             setFont(fontName: fontName, fontSize: fontSize)
         }
     }
-     @IBInspectable
-    var fontSize : CGFloat = 20 {
+    @IBInspectable
+    @objc public dynamic var fontSize : CGFloat = 20 {
         didSet{
             setFont(fontName: fontName, fontSize: fontSize)
         }
     }
-    var fontAwesomeName : String?  {
+    @objc public dynamic var fontAwesomeName : String?  {
         didSet{
             guard let fontAwesomeName = fontAwesomeName else {
                 lb_rightAwesomeIcon.font = UIFont.systemFont(ofSize: 18)
@@ -103,7 +108,7 @@ open class BHTextField: UIControl {
         return self.txt_input.becomeFirstResponder()
     }
     func setFont(fontName name : String? ,fontSize size : CGFloat)  {
-        guard let name = name ,        let font =  UIFont(name: name, size: size) else {
+        guard let name = name , let font =  UIFont(name: name, size: size) else {
             txt_input.font = UIFont.systemFont(ofSize: size)
             return
         }
@@ -116,7 +121,7 @@ open class BHTextField: UIControl {
         case birthDate = 3
         case numberic = 4
         case passwordNumberic = 5
-//        case pinPassword = 6
+        //        case pinPassword = 6
     }
     var isEmpty : Bool {
         return (txt_input.text == "" || txt_input.text == nil) ? true : false
@@ -385,10 +390,10 @@ open class BHTextField: UIControl {
         if let fontName = self.fontName , fontName != "" {
             font = UIFont(name: fontName, size: self.fontSize) ?? defaultFont
         }
-       txt_input.attributedPlaceholder = NSAttributedString(string: self.placeHolder ?? ""
+        txt_input.attributedPlaceholder = NSAttributedString(string: self.placeHolder ?? ""
             , attributes: [NSAttributedStringKey.foregroundColor :  self.placeholderColor
                 ,NSAttributedStringKey.font :font
-        ])
+            ])
     }
     func setUpGesture(){
         txt_input.addTarget(self, action: #selector(self.textDidChange(sender:)) , for: .editingChanged)
@@ -490,7 +495,7 @@ open class BHTextField: UIControl {
 extension BHTextField {
     func validEmail(text : String?) -> Bool {
         guard text != nil && text != "" else {
-            return true
+            return false
         }
         let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
         let emailPredicate = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
